@@ -13,7 +13,7 @@ TODO
 
 If you find this work useful in your research, please consider citing our paper:
 
-<pre>@misc{tsouvalas2022federated,
+<pre>@misc{saeed2023fedcode,
 	title={FedCode: Communication-Efficient Federated Learning via Transferring Codebooks}, 
 	author={Saeed Khalilian Gourtani and Vasileios Tsouvalas and Tanir Ozcelebi and Nirvana Meratnia},
 	year={2023},
