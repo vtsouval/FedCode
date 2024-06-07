@@ -28,12 +28,12 @@ python3 ./src/fedcode.py --dataset cifar10 --model mobilenet --num_clients 10 --
 
 If you find this work useful in your research, please consider citing our paper:
 
-<pre>@misc{saeed2023fedcode,
-	title={FedCode: Communication-Efficient Federated Learning via Transferring Codebooks}, 
-	author={Saeed Khalilian Gourtani and Vasileios Tsouvalas and Tanir Ozcelebi and Nirvana Meratnia},
-	year={2023},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/vtsouval/FedCode}},
+<pre>@misc{khalilian2023fedcode,
+      title={FedCode: Communication-Efficient Federated Learning via Transferring Codebooks}, 
+      author={Saeed Khalilian and Vasileios Tsouvalas and Tanir Ozcelebi and Nirvana Meratnia},
+      year={2023},
+      eprint={2311.09270},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 </pre>
