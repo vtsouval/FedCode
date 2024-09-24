@@ -18,12 +18,13 @@ pip3 install -r requirements.txt
 
 From the root of this repo, start an experiment by executing :
 ```
-# FedAvg
-python3 ./src/fedavg.py --dataset cifar10 --model mobilenet --num_clients 10 --num_rounds 100 --split iid
-# FedAvg + Weight Clustering
-python3 ./src/fedavg.py --dataset cifar10 --model mobilenet --num_clients 10 --num_rounds 100 --split iid --num_clusters 64
+cd ./src
 # Federated Learning with Codebook Transfer
-python3 ./src/fedcode.py --dataset cifar10 --model mobilenet --num_clients 10 --num_rounds 100 --split iid --num_clusters 64 --r_cb 2 --f1 5 --f2 2
+python3 ./src/main.py --dataset cifar10 --model mobilenet --num_clients 10 --num_rounds 100 --split iid \
+      --num_clusters 64 \ # number of clusters
+      --start_rnd 2 \ # round to start clustering
+      --broadcast_rate 5 \ # f1
+      --request_rate 2 \ # f2
 ```
 
 # References
