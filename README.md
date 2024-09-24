@@ -24,7 +24,7 @@ python3 ./src/main.py --dataset cifar10 --model mobilenet --num_clients 10 --num
       --num_clusters 64 \ # number of clusters
       --start_rnd 2 \ # round to start clustering
       --broadcast_rate 5 \ # f1
-      --request_rate 2 \ # f2
+      --request_rate 2 # f2
 ```
 
 # References
